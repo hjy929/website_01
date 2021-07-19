@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+/* font-family: 'Pacifico', cursive;
+font-family: 'Source Sans Pro', sans-serif; */
+
+
+*{box-sizing: border-box; font-family: 'Source Sans Pro', sans-serif;}
+html, body{margin: 0;padding: 0;}
+h1,h2,h3,h4,h5,h6,p{margin: 0;}
+ul, ol{margin: 0; padding: 0; list-style: none;}
+a{text-decoration: none;}
+
+
+.font_paci{font-family: 'Pacifico', cursive;}
+
+
+#Home01{width: 100%;}
+#Home01 .top{width: 100%; height: 30px; background: #000;}
+#Home01 .top .wrap{
+    width: 1160px; height: 100%; padding: 0 10px; margin: 0 auto;
+}
+#Home01 .top .wrap .left_t{float: left; padding-top: 8px;}
+#Home01 .top .wrap .left_t ul{}
+#Home01 .top .wrap .left_t ul li{float: left;}
+#Home01 .top .wrap .left_t ul li a{
+    display: block; font-size: 14; color: #fff; line-height: 1; padding-right: 10px;
+}
+#Home01 .top .wrap .left_t ul li a i{
+    color: #fff;
+}
+
+
+
+#Home01 .top .wrap .right_t{float: right; padding: 7px 10px ;}
+#Home01 .top .wrap .right_t ul{}
+#Home01 .top .wrap .right_t ul li{float: left;}
+#Home01 .top .wrap .right_t ul li a{ 
+    display: block; font-size: 16px; line-height: 1; padding-left:10px;
+}
+#Home01 .top .wrap .right_t ul li a i{color: #fff;}
+
+
+#Home01 .main{width: 100%; height: 66px; background-image: url();}
+#Home01 .main .dark{width: 100%; height: 100%; background: rgba(0,0,0,0.5);}
+#Home01 .main .dark .wrap{width: 1160px; height: 100%; padding: 0 10px; margin: 0 auto;}
+
+#Home01 .main .dark .wrap .logo{float: left;}
+#Home01 .main .dark .wrap .logo a{display: block;}
+#Home01 .main .dark .wrap .logo a img{
+    display: block; width: 180px; padding-top: 10px;
+}
+
+#Home01 .main .dark .wrap .menu{float: right;}
+#Home01 .main .dark .wrap .menu ul{float: left;}
+#Home01 .main .dark .wrap .menu ul li{float: left;}
+#Home01 .main .dark .wrap .menu ul li a{
+    display: block; font-size: 16px; font-weight: bold; color: #fff;
+    padding: 0 20px; line-height: 66px;
+}
+#Home01 .main .dark .wrap .menu ul:last-child li a{}
+#Home01 .main .dark .wrap .menu ul li:hover a{color: #ff6600;}
+
+#Home01 .main .dark .wrap .menu ul:last-child{}
+#Home01 .main .dark .wrap .menu ul:last-child ul{}
+#Home01 .main .dark .wrap .menu ul:last-child ul li{}
+#Home01 .main .dark .wrap .menu ul:last-child ul li a{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
